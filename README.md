@@ -4,6 +4,9 @@
 
 This project is a backend assignment for a finance dashboard system. It is built with Node.js, Express, MongoDB, Mongoose, and JWT authentication.
 
+## Live Demo
+https://finance-dashboard-backend-0v25.onrender.com
+
 The backend supports:
 
 - user and role management
@@ -138,7 +141,7 @@ npm install
 ### 2. Create environment file
 
 ```powershell
-Copy-Item .env.example .env
+.env
 ```
 
 ### 3. Add environment values
@@ -188,9 +191,9 @@ http://localhost:3000
 
 ## Main API Endpoints
 
-### Health
+### Root
 
-- `GET /api/health`
+- `GET /`
 
 ### Auth
 
